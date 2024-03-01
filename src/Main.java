@@ -20,12 +20,13 @@ public class Main {
         for (a = 10; a >= 1; a--) {
             System.out.print(a + " ");
         }
+
         System.out.println("Task 3");
         int people = 12_000_000;
         int difference = people / 1000;
         int birth = 17;
         int death = 8;
-        for (int year = 1; year <= 10; year++) {
+        for (int year = 0; year <= 10; year++) {
             people = people + (difference * (birth - death));
             System.out.println("Год " + year + " численность населения составляет " + people);
         }
