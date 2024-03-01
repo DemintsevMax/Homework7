@@ -26,7 +26,7 @@ public class Main {
         int difference = people / 1000;
         int birth = 17;
         int death = 8;
-        for (int year = 0; year <= 10; year++) {
+        for (int year = 1; year <= 10; year++) {
             people = people + (difference * (birth - death));
             System.out.println("Год " + year + " численность населения составляет " + people);
         }
