@@ -54,15 +54,14 @@ public class Main {
         }
         System.out.println("Task 6");
         int cash2 = 15_000;
-        double month2 = 0;
+        int month2 = 0;
         int profit2 = cash/100*7;
         int total5 = 0;
-        for (; month2 <= 108; month2 = month2 + 1.5) {
+        for (; month2 <= 108; month2 = month2 +6) {
             total5 = total5 + profit2;
             total5 = total5 + cash2;
-            if (month2 % 6 == 0) {
                 System.out.println(month2 + " " + total5);
-            }
+
         }
         System.out.println("Task 7");
         for (int Friday = 1; Friday <= 31; Friday = Friday + 7) {
