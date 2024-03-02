@@ -34,34 +34,34 @@ public class Main {
         int cash = 15000;
         int profit = cash/100*7;
         int total3 = 0;
-        int year = 1;
-        for (; total3 < 12_000_000; year++) {
+        int month = 1;
+        for (; total3 < 12_000_000; month++) {
             total3 = total3 + profit;
             total3 = total3 + cash;
-            System.out.println(year + " " + total3);
+            System.out.println(month + " " + total3);
         }
         System.out.println("Task 5");
         int cash1 = 15000;
         int profit1 = cash/100*7;
         int total4 = 0;
-        int year1 = 0;
-        for (; total4 <12_000_000; year1++) {
+        int month1 = 0;
+        for (; total4 <12_000_000; month1++) {
             total4 = total4 + profit1;
             total4 = total4 + cash1;
-            if (year1 % 6 == 0) {
-                System.out.println(year1 + " " + total4);
+            if (month1 % 6 == 0) {
+                System.out.println(month1 + " " + total4);
             }
         }
         System.out.println("Task 6");
         int cash2 = 15_000;
-        double month = 0;
-        int profit2 = cash % 7;
+        double month2 = 0;
+        int profit2 = cash/100*7;
         int total5 = 0;
-        for (; month <= 108; month = month + 1.5) {
+        for (; month2 <= 108; month2 = month2 + 1.5) {
             total5 = total5 + profit2;
             total5 = total5 + cash2;
-            if (month % 6 == 0) {
-                System.out.println(month + " " + total5);
+            if (month2 % 6 == 0) {
+                System.out.println(month2 + " " + total5);
             }
         }
         System.out.println("Task 7");
