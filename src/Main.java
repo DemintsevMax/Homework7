@@ -45,7 +45,7 @@ public class Main {
         int profit1 = cash/100*7;
         int total4 = 0;
         int year1 = 0;
-        for (; total4 < 12_000_000; year1++) {
+        for (; total4 <12_000_000; year1++) {
             total4 = total4 + profit1;
             total4 = total4 + cash1;
             if (year1 % 6 == 0) {
